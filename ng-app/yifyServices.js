@@ -12,8 +12,8 @@
     yifyService.$inject = ['$resource'];
     function yifyService($resource) {
 
-        var crossOriginProxy = 'https://crossorigin.me/';
-
+        // var crossOriginProxy = 'https://crossorigin.me/';
+        var crossOriginProxy = '';
         // Temporary fix. Should test all three and use only the available
         var endPoints = [
             'https://yts.ag/api/',
